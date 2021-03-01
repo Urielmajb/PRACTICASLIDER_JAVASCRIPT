@@ -15,8 +15,8 @@ function slide(){
     slider.style.transition = 'transform 1s';
     contador++;
 
+    /*Se cambio la variable intervalo por un dato ya definido para que hafa los cambios rapidos*/
     if(contador == sliderInd.length){
-        /*contador = 0*/
         setTimeout(() => {
             slider.style.transform = 'translate(0px)';
             slider.style.transition = 'transform 0s';
